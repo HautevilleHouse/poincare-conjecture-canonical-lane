@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "PC_G1": [],
+    "PC_G2": [],
+    "PC_G3": [],
+    "PC_G4": [],
+    "PC_G5": [],
+    "PC_G6": [],
+    "PC_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8
+  },
+  "gates": {
+    "PC_G1": "PASS",
+    "PC_G2": "PASS",
+    "PC_G3": "PASS",
+    "PC_G4": "PASS",
+    "PC_G5": "PASS",
+    "PC_G6": "PASS",
+    "PC_GM": "PASS"
+  },
+  "inputs": {
+    "eps_coh": 0.0,
+    "geometrization_factor": 1.0307999999999997,
+    "kappa_coercive": 1.100325,
+    "kappa_compact": 0.8,
+    "rho_rigidity": 1.074,
+    "sigma_capture": 1.068,
+    "sigma_star_can": 1.052
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-11T14:00:00+00:00",
+    "framework": "poincare_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}

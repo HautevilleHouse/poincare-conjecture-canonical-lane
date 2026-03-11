@@ -1,0 +1,53 @@
+{
+  "constants": {
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.6; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "geometrization_factor": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.4; raw=1.0307999999999997, ref=1.0, formula=c_geom_raw * rho_rigidity_for_transfer_raw - e_geom_raw",
+      "source": "artifacts/constants_extracted.json#geometrization_factor",
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.4",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0307999999999997
+    },
+    "kappa_coercive": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/POINCARE_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A; raw=1.100325, ref=1.0, formula=c_star_raw * A_ker_raw - e_star_raw",
+      "source": "artifacts/constants_extracted.json#kappa_coercive",
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.100325
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C; raw=0.8, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/POINCARE_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D; raw=1.074, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.074
+    },
+    "sigma_capture": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B; raw=1.068, ref=1.0, formula=sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_capture",
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.068
+    }
+  },
+  "updated_at_utc": "2026-03-11T14:00:54Z"
+}

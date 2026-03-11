@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "poincare_conjecture",
+  "generated_utc": "2026-03-11T14:00:54Z",
+  "promoted_constants": {
+    "eps_coh": 0.0,
+    "geometrization_factor": 1.0307999999999997,
+    "kappa_coercive": 1.100325,
+    "kappa_compact": 0.8,
+    "rho_rigidity": 1.074,
+    "sigma_capture": 1.068
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.052
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}
