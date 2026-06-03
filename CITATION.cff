@@ -1,0 +1,22 @@
+title: "The Poincaré Conjecture via Geometrization Persistence"
+message: "If you use this workspace, cite the manuscript and theorem notes."
+type: software
+authors:
+  - name: "HautevilleHouse"
+date-released: 2026-03-11
+repository-code: "https://github.com/HautevilleHouse/poincare-conjecture-canonical-lane"
+url: "https://github.com/HautevilleHouse/poincare-conjecture-canonical-lane"
+license: None
+keywords:
+  - poincare-conjecture
+  - topology
+  - riemannian-geometry
+  - ricci-flow
+  - geometrization
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "The Poincaré Conjecture via Geometrization Persistence"
+  authors:
+    - name: "HautevilleHouse"
+  date: 2026-03-11

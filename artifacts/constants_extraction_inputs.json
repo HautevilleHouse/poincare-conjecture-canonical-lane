@@ -1,0 +1,92 @@
+{
+  "schema_version": "2026-03-11",
+  "framework": "poincare_conjecture",
+  "constants": {
+    "kappa_coercive": {
+      "status": "derived_numeric",
+      "formula": "c_star_raw * A_ker_raw - e_star_raw",
+      "components": {
+        "c_star_raw": 1.4625,
+        "A_ker_raw": 0.918,
+        "e_star_raw": 0.24225
+      },
+      "reference": 1.0,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "notes": "Derived from raw comparison constants for Ricci flow monotonicity."
+    },
+    "sigma_capture": {
+      "status": "derived_numeric",
+      "formula": "sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "components": {
+        "sigma_floor_raw": 1.387,
+        "flow_loss_raw": 0.173,
+        "jump_loss_raw": 0.146
+      },
+      "reference": 1.0,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "notes": "Derived from capture budget components on canonical tube."
+    },
+    "kappa_compact": {
+      "status": "derived_numeric",
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "components": {
+        "delta_comp_sup_raw": 0.25
+      },
+      "reference": 1.0,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "notes": "Derived from compactness defect supremum bound."
+    },
+    "rho_rigidity": {
+      "status": "derived_numeric",
+      "formula": "rho_rigidity_raw",
+      "components": {
+        "rho_rigidity_raw": 1.074
+      },
+      "reference": 1.0,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "notes": "Derived rigidity margin for Ricci flow convergence."
+    },
+    "geometrization_factor": {
+      "status": "derived_numeric",
+      "formula": "c_geom_raw * rho_rigidity_for_transfer_raw - e_geom_raw",
+      "components": {
+        "c_geom_raw": 1.14,
+        "rho_rigidity_for_transfer_raw": 1.02,
+        "e_geom_raw": 0.132
+      },
+      "reference": 1.0,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.4",
+      "notes": "Derived from raw geometrization transfer inequality."
+    },
+    "eps_coh": {
+      "status": "derived_numeric",
+      "formula": "eps_coh_raw",
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "strict_zero": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.6",
+      "notes": "Strict coherence target."
+    }
+  },
+  "stitch": {
+    "sigma_star_can": {
+      "status": "derived_numeric",
+      "formula": "sigma_star_can_raw",
+      "components": {
+        "sigma_star_can_raw": 1.052
+      },
+      "reference": 1.0,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "notes": "Derived canonical stitch capture floor."
+    }
+  }
+}

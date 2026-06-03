@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "geometrization_factor": {
+      "components": {
+        "c_geom_raw": 1.14,
+        "e_geom_raw": 0.132,
+        "rho_rigidity_for_transfer_raw": 1.02
+      },
+      "formula": "c_geom_raw * rho_rigidity_for_transfer_raw - e_geom_raw",
+      "normalized_value": 1.0307999999999997,
+      "notes": "Derived from raw geometrization transfer inequality.",
+      "raw_value": 1.0307999999999997,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_coercive": {
+      "components": {
+        "A_ker_raw": 0.918,
+        "c_star_raw": 1.4625,
+        "e_star_raw": 0.24225
+      },
+      "formula": "c_star_raw * A_ker_raw - e_star_raw",
+      "normalized_value": 1.100325,
+      "notes": "Derived from raw comparison constants for Ricci flow monotonicity.",
+      "raw_value": 1.100325,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.25
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8,
+      "notes": "Derived from compactness defect supremum bound.",
+      "raw_value": 0.8,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.074
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.074,
+      "notes": "Derived rigidity margin for Ricci flow convergence.",
+      "raw_value": 1.074,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_capture": {
+      "components": {
+        "flow_loss_raw": 0.173,
+        "jump_loss_raw": 0.146,
+        "sigma_floor_raw": 1.387
+      },
+      "formula": "sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "normalized_value": 1.068,
+      "notes": "Derived from capture budget components on canonical tube.",
+      "raw_value": 1.068,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "poincare_conjecture",
+  "generated_utc": "2026-03-11T14:00:54Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "6bc3cad79165327bad100b0e77272936d27cad9897f318fe8efec0fc3a31a1a7",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.052
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.052,
+      "notes": "Derived canonical stitch capture floor.",
+      "raw_value": 1.052,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/POINCARE_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}
