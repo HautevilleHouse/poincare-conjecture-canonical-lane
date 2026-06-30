@@ -16,9 +16,9 @@ python3 scripts/promote_constants.py \
   --stitch artifacts/stitch_constants.json \
   --report artifacts/promotion_report.json
 
-mkdir -p .repro_tmp/pc_closure
-cp artifacts/stitch_constants.json .repro_tmp/pc_closure/stitch_constants.json
-cp artifacts/constants_registry.json .repro_tmp/pc_closure/constants_registry.json
+mkdir -p .tmp/pc_closure
+cp artifacts/stitch_constants.json .tmp/pc_closure/stitch_constants.json
+cp artifacts/constants_registry.json .tmp/pc_closure/constants_registry.json
 
 python3 scripts/pc_closure_guard.py \
   --strict-coh-zero \
